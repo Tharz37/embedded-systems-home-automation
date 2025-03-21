@@ -9,14 +9,14 @@ This project automates a home using **gesture recognition** (via OpenCV) and **v
 - **ESP32 Control**: **ESP32** microcontroller controls the devices and handles WebSocket communication.
 
 ## Project Structure
-Home Automation/ 
-├── Main code/ │ 
-├── CVandVoice/ # Code for gesture and voice control │ 
-├── Main_code/ # Main Arduino code for ESP32 
-│ └── website/ # Web interface for control and status display 
-└── WS_test/ 
-├── esp32/ # WebSocket test code for ESP32 
-└── Python/ # WebSocket test code for Python
+Home Automation/
+├── Main_code/              # Main Arduino code for ESP32
+│   └── website/            # Web interface for control and status display
+├── CVandVoice/             # Code for gesture and voice control
+└── WS_test/
+    ├── esp32/              # WebSocket test code for ESP32
+    └── Python/             # WebSocket test code for Python
+
 
 ## Requirements
 ### **Hardware**
